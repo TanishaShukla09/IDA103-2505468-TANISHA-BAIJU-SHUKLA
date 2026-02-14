@@ -1,0 +1,3 @@
+# Local environment variables — DO NOT COMMIT
+# Replace the value below with your own key
+OPENAI_API_KEY=sk-REPLACE_WITH_YOUR_KEY
