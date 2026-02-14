@@ -28,8 +28,6 @@ During development, multiple generative AI APIs were explored and tested:
 | **OpenRouter (GPT-4o)** | Integrated successfully; faced insufficient credit issues on free tier |
 | **Anthropic Claude** | Explored; API access limited without paid plan |
 
-> **Resolution:** The app was ultimately connected via **OpenRouter's API** (routing to GPT-4o), which mirrors Gemini 1.5's capability profile. All prompt logic, hyperparameter tuning, and output formatting were designed to be model-agnostic and fully compatible with Gemini 1.5 Pro once credits are available. The API endpoint and model string in `app.py` can be swapped to `gemini-1.5-pro` with minimal change.
-
 ---
 
 ## Research Findings
