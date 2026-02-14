@@ -126,5 +126,5 @@ All prompts combine user-provided artwork details (type, period, artist, descrip
 
 ## Live App & Repository
 
-- **Streamlit App URL:** `https://artrestoration2.streamlit.app/`
+- **Streamlit App URL:** `https://artrestorationapp.streamlit.app/`
 
