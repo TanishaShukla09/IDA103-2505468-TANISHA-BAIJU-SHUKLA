@@ -46,23 +46,6 @@ During development, multiple generative AI APIs were explored and tested:
 
 ---
 
-## Model & Hyperparameter Configuration
-
-**Model Used:** `openai/gpt-4o` via OpenRouter (Gemini 1.5 Pro compatible design)
-
-| Parameter | Range | Effect |
-|---|---|---|
-| `temperature` | 0.0 – 1.0 | Controls creativity; lower = conservative, higher = imaginative |
-| `max_tokens` | 500 – 3000 | Controls response length |
-| `top_p` | 0.95 (fixed) | Nucleus sampling for output diversity |
-
-**Tuning Strategy:**
-- For factual restoration (e.g., period-specific techniques): `temperature = 0.3`
-- For creative interpretations (e.g., color palette, symbolic analysis): `temperature = 0.7`
-- For visitor-friendly summaries: `temperature = 0.5`, `max_tokens = 800`
-
----
-
 ## Prompts Crafted (12 Features)
 
 All prompts combine user-provided artwork details (type, period, artist, description, damage) with specialized task instructions:
